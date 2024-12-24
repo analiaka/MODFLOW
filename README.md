@@ -16,6 +16,8 @@ The notebook includes:
 - Loading the model
 - Running the model
 - Handling errors
+
+
 | [Steady-State Pumping Well using MODFLOW.ipynb](notebook2.ipynb) | This notebook focuses on visualizing hydraulic head outputs using **Flopy**. |
 The notebook includes:
 - Creating the model
