@@ -11,15 +11,8 @@ This repository contains a Jupyter Notebook tutorials for the following:
 | Notebook | Description |
 |----------|-------------|
 | [CPNRD MODFLOW.ipynb](notebook1.ipynb) | This notebook demonstrates how to load and run the **COHYST** MODFLOW model. |
-The notebook includes:
-- Configuring the model folder
-- Loading the model
-- Running the model
-- Handling errors
-
-
 | [Steady-State Pumping Well using MODFLOW.ipynb](notebook2.ipynb) | This notebook focuses on visualizing hydraulic head outputs using **Flopy**. |
-The notebook includes:
+The notebooks includes:
 - Creating the model
 - DIS Package
 - BAS Package
@@ -31,7 +24,11 @@ The notebook includes:
 - Post processing and visualization
 - Hydraulic head contours
 - Flow vectors (discharge arrows)
-- Model grid visualization  
+- Model grid visualization
+- Configuring the model folder
+- Loading the model
+- Running the model
+- Handling errors
 
 ## Requirements
 - Python 3.x
