@@ -2,7 +2,16 @@
 Setting up a simple steady-state well model using MODFLOW, the widely utilized groundwater modeling software developed by the USGS
 # MODFLOW Results Visualization
 
-This repository contains a Jupyter Notebook tutorial for the essential steps to create and configure a MODFLOW model that simulates groundwater flow under steady-state conditions and visualizing MODFLOW groundwater simulation results.  
+This repository contains a Jupyter Notebook tutorials for the following:
+1. The essential steps to create and configure a MODFLOW model that simulates groundwater flow under steady-state conditions and visualizing MODFLOW groundwater simulation results.
+2. The step-by-step process for loading and utilizing an existing MODFLOW model, specifically the COHYST (Cooperative Hydrology Study) groundwater model. 
+
+## Notebooks Overview
+
+| Notebook | Description |
+|----------|-------------|
+| [CPNRD MODFLOW.ipynb](notebook1.ipynb) | This notebook demonstrates how to load and run the **COHYST** MODFLOW model. |
+| [Steady-State Pumping Well using MODFLOW.ipynb](notebook2.ipynb) | This notebook focuses on visualizing hydraulic head outputs using **Flopy**. |
 The notebook includes:
 Creating the model
 - DIS Package
@@ -23,6 +32,7 @@ Post processing and visualization
 - Matplotlib
 - Numpy
 - MODFLOW or MODFLOW-2005 executables
+- COHYST Groundwater model
 
 ## How to Run
 1. Clone the repository:
